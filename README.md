@@ -1,7 +1,5 @@
 # Machine Learning End to End: Train with Scikit-Learn, Track with MLflow, Explain with LLMs
 
-Materials for the Moringa live masterclass, Tuesday August 11, 6:30 to 8:00 PM (GMT+3).
-
 This repo has three notebooks that build on each other, all using the same dataset and model. You do not need to install anything locally. Open each notebook in Google Colab and run the cells in order.
 
 ## Notebooks
@@ -12,7 +10,7 @@ This repo has three notebooks that build on each other, all using the same datas
 
 ## Dataset
 
-`data/Telco-Customer-Churn.csv` is bundled in this repo, so there is no separate download step. It is a customer churn dataset from a telecom company: one row per customer, with account details and a label showing whether the customer churned.
+`data/Telco-Customer-Churn.csv` It is a customer churn dataset from a telecom company: one row per customer, with account details and a label showing whether the customer churned.
 
 ## Setup
 
@@ -51,8 +49,6 @@ In Colab, store it in the Secrets panel (the key icon in the left sidebar) rathe
 export GEMINI_API_KEY=your_key_here
 ```
 
-No payment method is required at the free tier.
-
 ## Viewing the MLflow UI
 
 After running `02_track_mlflow.ipynb`, from this folder run:
@@ -63,6 +59,3 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 Then open the URL it prints, usually http://127.0.0.1:5000.
 
-## Questions during the session
-
-Bring them to the Q&A block at the end, or drop them in the Zoom chat as we go.
