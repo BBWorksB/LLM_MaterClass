@@ -1,0 +1,8 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+mlflow
+shap
+google-genai
+jupyter
